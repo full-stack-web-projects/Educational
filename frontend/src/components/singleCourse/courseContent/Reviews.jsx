@@ -1,6 +1,6 @@
 import React from "react";
 import { IoStar, IoStarHalf } from "react-icons/io5";
-import RatingRatio from "./ratingRatio";
+import RatingRatio from "./RatingRatio";
 export default function Reviews() {
   const initialData = {
     rating: 4.0,
