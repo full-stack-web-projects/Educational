@@ -12,10 +12,10 @@ export default function RatingRatio({ percentage, stars }) {
 
   return (
     <div>
-      <div className="flex items-center">
-        <span className="text-sm w-[100px] font-semibold mr-2">
+      <div className="flex  items-center">
+        <p className="text-xs md:text-sm mb-2  w-[100px] font-semibold mr-2">
           {star(stars)}
-        </span>
+        </p>
         <div className="w-full bg-gray-200 rounded-full h-2 mr-2">
           <div
             className="bg-yellow-400 h-2 rounded-full"

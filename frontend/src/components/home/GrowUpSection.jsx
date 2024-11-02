@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import { Link } from "react-router-dom";
 
 export default function GrowUpSection() {
   return (
@@ -16,7 +17,11 @@ export default function GrowUpSection() {
         <p className="mt-10">
           <span>&#10003;</span> Certification
         </p>
-        <Button variant="default" size={"lg"} className={"lg:mt-16 mt-5"} >Explorer course</Button>
+        <Link to="/courses">
+          <Button variant="default" size={"lg"} className={"lg:mt-16 mt-5"}>
+            Explorer course
+          </Button>
+        </Link>
       </div>
     </div>
   );

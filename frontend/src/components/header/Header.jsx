@@ -97,22 +97,16 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/about"
+              to="/Courses"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900"
             >
-              About
+              Courses
             </Link>
             <Link
-              to="/services"
+              to="/Blog"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900"
             >
-              Services
-            </Link>
-            <Link
-              to="/contact"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900"
-            >
-              Contact
+              Blog
             </Link>
           </div>
         </div>

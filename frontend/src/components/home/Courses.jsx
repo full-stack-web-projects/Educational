@@ -1,6 +1,7 @@
 import React from "react";
 import CoursesCard from "./CoursesCard";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export default function Courses() {
   return (
@@ -20,60 +21,72 @@ export default function Courses() {
         </Button>
       </div>
       <div className="flex mx-auto lg:w-[1400px] justify-center  items-center gap-6 mt-10 flex-wrap">
-        <CoursesCard
-          instructor={"Omar Ehab"}
-          title={"Create an LMS Website with LearnPress"}
-          weeks={"3"}
-          students={54}
-          price={29.9}
-          type={"Photography"}
-          img="/Group0.png"
-        />
-        <CoursesCard
-          instructor={"Omar Ehab"}
-          title={"Create an LMS Website with LearnPress"}
-          weeks={"3"}
-          students={54}
-          price={29.9}
-          type={"Photography"}
-          img="/Group0.png"
-        />
-        <CoursesCard
-          instructor={"Omar Ehab"}
-          title={"Create an LMS Website with LearnPress"}
-          weeks={"3"}
-          students={54}
-          price={29.9}
-          type={"Photography"}
-          img="/Group0.png"
-        />
-        <CoursesCard
-          instructor={"Omar Ehab"}
-          title={"Create an LMS Website with LearnPress"}
-          weeks={"3"}
-          students={54}
-          price={29.9}
-          type={"Photography"}
-          img="/Group0.png"
-        />
-        <CoursesCard
-          instructor={"Omar Ehab"}
-          title={"Create an LMS Website with LearnPress"}
-          weeks={"3"}
-          students={54}
-          price={29.9}
-          type={"Photography"}
-          img="/Group0.png"
-        />
-        <CoursesCard
-          instructor={"Omar Ehab"}
-          title={"Create an LMS Website with LearnPress"}
-          weeks={"3"}
-          students={54}
-          price={29.9}
-          type={"Photography"}
-          img="/Group0.png"
-        />
+        <Link to={"/singleCourse"}>
+          <CoursesCard
+            instructor={"Omar Ehab"}
+            title={"Create an LMS Website with LearnPress"}
+            weeks={"3"}
+            students={54}
+            price={29.9}
+            type={"Photography"}
+            img="/Group0.png"
+          />
+        </Link>
+        <Link to={"/singleCourse"}>
+          <CoursesCard
+            instructor={"Omar Ehab"}
+            title={"Create an LMS Website with LearnPress"}
+            weeks={"3"}
+            students={54}
+            price={29.9}
+            type={"Photography"}
+            img="/Group0.png"
+          />
+        </Link>{" "}
+        <Link to={"/singleCourse"}>
+          <CoursesCard
+            instructor={"Omar Ehab"}
+            title={"Create an LMS Website with LearnPress"}
+            weeks={"3"}
+            students={54}
+            price={29.9}
+            type={"Photography"}
+            img="/Group0.png"
+          />
+        </Link>{" "}
+        <Link to={"/singleCourse"}>
+          <CoursesCard
+            instructor={"Omar Ehab"}
+            title={"Create an LMS Website with LearnPress"}
+            weeks={"3"}
+            students={54}
+            price={29.9}
+            type={"Photography"}
+            img="/Group0.png"
+          />
+        </Link>{" "}
+        <Link to={"/singleCourse"}>
+          <CoursesCard
+            instructor={"Omar Ehab"}
+            title={"Create an LMS Website with LearnPress"}
+            weeks={"3"}
+            students={54}
+            price={29.9}
+            type={"Photography"}
+            img="/Group0.png"
+          />
+        </Link>{" "}
+        <Link to={"/singleCourse"}>
+          <CoursesCard
+            instructor={"Omar Ehab"}
+            title={"Create an LMS Website with LearnPress"}
+            weeks={"3"}
+            students={54}
+            price={29.9}
+            type={"Photography"}
+            img="/Group0.png"
+          />
+        </Link>
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AddsOn() {
   return (
@@ -21,9 +22,11 @@ export default function AddsOn() {
             Flexible and Magical Inside.
           </p>
           {/* Explore Course Button */}
-          <button className="mt-2 px-5 py-1 md:px-6 md:py-2 bg-primary text-white rounded-full shadow-lg hover:bg-primary-foreground transition-all">
-            Explore Course
-          </button>
+          <Link to={"/courses"}>
+            <button className="mt-2 px-5 py-1 md:px-6 md:py-2 bg-primary text-white rounded-full shadow-lg hover:bg-primary-foreground transition-all">
+              Explore Course
+            </button>
+          </Link>
         </div>
       </div>
 

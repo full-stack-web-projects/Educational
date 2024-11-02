@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import { Link } from "react-router-dom";
 export default function WordpressSection() {
   return (
     <div className="flex   relative justify-center lg:w-[1400px] items-center mx-auto  mt-16  ">
@@ -20,9 +21,11 @@ export default function WordpressSection() {
           The next level of LMS WordPress Theme. Learn anytime and anywhere.
         </p>
         {/* Explore Course Button */}
-        <button className="mt-2  px-5 py-1 md:px-6 md:py-2 bg-primary text-white rounded-full shadow-lg hover:bg-primary-foreground transition-all">
-          Explore Course
-        </button>
+        <Link to="/courses">
+          <Button variant="default" size={"lg"} className={"lg:mt-16 mt-5"}>
+            Explorer courses
+          </Button>
+        </Link>
       </div>
     </div>
   );
