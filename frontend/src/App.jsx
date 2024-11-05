@@ -5,6 +5,9 @@ import NotFound from "./components/NotFound";
 import Home from "./pages/home/Homepage";
 import CoursePage from "./pages/courses/CoursePage";
 import SingleCoursePage from "./pages/singleCourse/SingleCoursePage";
+import Login from "./pages/auth/LoginPage";
+import Register from "./components/auth/Register";
+import BlogPage from "./pages/blog/BlogPage";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -23,6 +26,18 @@ export default function App() {
         {
           path: "singleCourse",
           element: <SingleCoursePage />,
+        },
+        {
+          path: "blog",
+          element: <BlogPage />,
+        },
+        {
+          path: "/Login",
+          element: <Login />,
+        },
+        {
+          path: "/register",
+          element: <Register />,
         },
         {
           path: "*",

@@ -13,8 +13,8 @@ export default function HeroBanner() {
         <p className="lg:text-6xl text-4xl font-Dm">Online Course</p>
         <div className="w-full lg:w-[600px] mt-6">
           <p className=" text-lg">
-            We denounce with righteous indignation and dislike men who are so
-            beguiled and demoralized that cannot trouble.
+            We believe in the power of knowledge to inspire and empower every
+            learner to reach their potential
           </p>
         </div>
         <Link to={"/courses"}>
